@@ -1,0 +1,72 @@
+/* General */
+
+/* Labels */
+
+body{}
+
+i{ color: #FFFFFF; }
+
+/* Class */
+
+.content{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aside{
+    min-height: 70vh;
+    height: 100%;
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+}
+
+.sectionContent{
+    border-top: 0.1rem solid #FFFFFF;
+    border-bottom: 0.1rem solid #FFFFFF;
+    padding: 0.1rem 0.5rem;
+}
+.sectionContent p{
+    font-size: 1rem;
+    margin: 0 auto;
+}
+.sectionContentIcons{
+    position: relative;
+    display: grid;
+    padding: auto 0.5rem;
+    grid-template-columns: repeat(2,50%);   
+}
+
+.sectionContentIcons i{
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+.sectionContentIcons span{
+    display: none;
+    width: 5rem;
+    font-size: 1rem;
+    color: #FFFFFF;
+    position: absolute;
+    top: -3rem;
+    left: 0rem;
+    padding: 0.5rem 1rem;
+    background: #000000;
+    border-radius: 1rem;
+}
+.sectionContentIcons :hover span{ display: block; }
+
+.btn-menu{
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #0471b1;
+    color: #FFFFFF;
+    border: 0.15rem solid #FFFFFF;
+}
+.btn-menu:hover{
+    color: #FFFFFF;
+    background: #0184cf;    
+}
+
+.tbold{ font-weight: bold }
